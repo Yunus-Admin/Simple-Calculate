@@ -8,7 +8,7 @@ function clean() {
 
 function back() {
   let exp = document.form.textview.value;
-  document.form.textview.value = exp.substring(0, exp.lenght - 1);
+  document.form.textview.value = exp.substring(0, exp.length - 1);
 }
 
 function equal() {
